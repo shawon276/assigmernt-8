@@ -1,0 +1,397 @@
+body{
+     font-family: myriad-pro, sans-serif;
+     font-style: normal;
+     font-weight: 400;
+}
+
+.img-fluid{
+	margin: 0px 25px;
+	width: 60%;
+
+}
+header{
+	background: url(../img/02.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:40px 0px 150px 0px;
+}
+
+.breadcrumb{
+  background: none;
+  margin: 0px 70px;
+}
+
+.breadcrumb li{
+	list-style-type: none;
+
+}
+
+.breadcrumb li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	transition: 0.7s ease;
+
+}
+
+.breadcrumb li a:hover{
+	color: yellow;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    color: #fafcff;
+    content: "/";
+    margin: 0px 20px 0px;
+}
+
+.fast h1{
+margin-top: 30%;
+	color: #fff;
+	font-size: 45px;
+	background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+	width: 130%;
+	height: 25%;
+	text-align: center;
+	padding: 10px 0px;
+	
+}
+.fast h2{
+font-size: 15px;
+margin-top: 20px;
+color: #fff;
+
+}
+
+
+
+.underline{
+
+	display: block;
+	border-bottom: 1px solid #fff;
+	width: 20px;
+	margin: 70px 0px 50px;
+}
+
+.btn-cstm{
+	color: #fff;
+	background: transparent;
+	border: 1px solid #fff;
+	border-radius: 1px;
+	padding: 10px 70px;
+	transition: 0.5s ease;
+}
+
+.btn-cstm:hover{
+    color: black;
+	background: yellow;
+	border: 1px solid black;
+}
+
+
+
+
+
+.hard{
+	background:#fff;
+	height: 500px;
+	
+}
+
+
+
+.faruk{
+	position: relative;
+	
+	height: 500px;
+}
+
+.shawon img{
+	position: absolute;
+	width: 95%;
+	top: 30%;
+	left: -50%;
+}
+
+.davil img{
+	position: absolute;
+	width: 75%;
+	top: 35%;
+	left: 20%;
+}
+
+
+.omor h1{
+color: black;
+	font-size: 45px;
+	margin-top: 20%;
+}
+
+.omor h5{
+color: silver;
+	font-size: 15px;
+	margin-top: 10%;
+}
+
+
+
+
+
+.last{
+	background: #28282E;
+	height: 480px;
+}
+
+.last-one{
+
+width: 100%;
+height: 400px;
+
+}
+
+
+
+
+.last-one h1{
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+font-size: 45px;
+margin: 15% 0px 0px 0px;
+}
+
+
+.unda{
+padding-top: 20px;
+	display: block;
+	border-bottom: 1px solid #fff;
+	width: 20px;
+	
+}
+
+.last-one h5{
+font-size: 15px;
+color: #fff;
+padding: 50px 0px 60px;
+}
+
+.btn-cstm-nine{
+	background: transparent;
+	border: 1px solid #fff;
+	border-radius: 1px;
+	transition: 0.7s ease;
+	color: #fff;
+	padding: 5px 10px;
+}
+
+
+.btn-cstm-nine:hover{
+	background: yellow;
+	color: black;
+	border: 1px solid black;
+}
+
+
+
+.last-two{
+
+width: 100%;
+height: 400px;
+position: relative;
+}
+
+.last-three img{
+position: absolute;
+	width:110%; 
+	top: 45%;
+	left: -20%;
+}
+
+footer{
+ background: #f23e2c;
+
+}
+
+.foot{
+padding: 25px 0px;
+
+}
+
+.foot h6{
+	font-size: 13px;
+	color: #fff;
+text-align: center;
+}
+
+
+
+
+@media (min-width: 320px) and (max-width:500px) { 
+
+
+.breadcrumb li a{
+	font-size: 10px;
+}
+
+.fast h1{
+	font-size: 40px;
+	width: 100%;
+	height: 15%;
+}
+
+.img-fluid{
+margin: 0px auto;
+display: block;
+width: 80%;
+}
+
+
+.fast h2{
+font-size: 15px;
+margin-top: 40px;
+text-align: center;
+
+}
+
+.underline{
+	width: 50px;
+	margin: 20px auto 20px;
+}
+
+.btn-cstm{
+	padding: 10px 20px;
+	font-size: 15px;
+	margin: 50px auto 0px;
+	display: block;
+}
+
+
+.hero h1{
+	
+padding: 10% 0px 0px 0px;
+text-align: center;
+font-size: 30px;
+
+}
+
+
+.hero h5{
+font-size: 13px;
+text-align: center;
+padding: 20px 0px;
+}
+
+.child img{
+	width: 150%;
+	left: -75%;
+	top: -115%;
+}
+
+.lasting img{
+top:-40%;
+width: 65%;
+left: 25%;
+}
+
+
+.last-one h1{
+	text-align: center;
+font-size: 30px;
+}
+
+
+.unda{
+	
+	margin: 0px auto;
+	width: 80px;
+	
+}
+
+.last-one h5{
+font-size: 13px;
+text-align: center;
+letter-spacing: 1px;
+
+}
+.btn-cstm-nine{
+font-size: 13px;
+margin: 110px auto;
+display: block;
+color: tomato;
+
+}
+
+
+
+
+
+.last-three img{
+	width:90%; 
+	top: -45%;
+left: 5%;
+}
+
+
+.last{
+
+	height: 520px;
+}
+
+
+.foot h6{
+	font-size: 11px;
+	
+text-align: center;
+}
+.shawon img{
+	position: absolute;
+top: 20px;
+
+	width: 100%;
+}
+
+
+
+.davil img{
+	position: absolute;
+	top: 8%;
+}
+
+
+.omor h1{
+text-align: center;
+font-size: 30px;
+margin-top: 60px;
+}
+
+.omor h5{
+font-size: 13px;
+text-align: center;
+letter-spacing: 1px;
+margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+
+
+@media (min-width:500.01px) and (max-width:768px) { 
+
+
+}

@@ -1,0 +1,173 @@
+body{
+     font-family: myriad-pro, sans-serif;
+     font-style: normal;
+     font-weight: 400;
+}
+
+.img-fluid{
+	margin: 0px 25px;
+	width: 60%;
+
+}
+header{
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+height: 127px;
+padding: 40px 0px;
+}
+
+.breadcrumb{
+  background: none;
+  margin: 0px 70px;
+}
+
+.breadcrumb li{
+	list-style-type: none;
+
+}
+
+.breadcrumb li a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	transition: 0.7s ease;
+
+}
+
+.breadcrumb li a:hover{
+	color: tomato;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    color: black;
+    content: "/";
+    margin: 0px 20px 0px;
+}
+.underline{
+
+	display: block;
+	border-bottom: 5px solid silver;
+	width:100%;
+	margin: 35px auto;
+}
+
+
+.last-one{
+	
+	height: 450px;
+}
+
+.last-one h1{
+	font-size: 45px;
+padding: 45px 50px 40px;
+
+}
+.last-one h5{
+	font-size: 13px;
+
+letter-spacing: 1px;
+
+}
+
+
+
+.lala{
+	position: relative;
+	
+	height: 450px;
+}
+.lala h5{
+	font-size: 13px;
+	letter-spacing: 1px;
+padding-top: 280px;
+}
+
+.last-three img{
+	position: absolute;
+	width: 50%;
+top: 10%;
+}
+
+.last-four img{
+	position: absolute;
+	top: 17%;
+	left: 27%;
+	width: 60%;
+}
+
+footer{
+ background: #f23e2c;
+
+}
+
+.foot{
+padding: 25px 0px;
+
+}
+
+.foot h6{
+	font-size: 13px;
+	color: #fff;
+text-align: center;
+}
+
+@media (min-width: 320px) and (max-width:500px) { 
+
+.breadcrumb li a{
+	font-size: 10px;
+}
+
+
+
+
+.fast h1{
+	font-size: 40px;
+	width: 100%;
+	height: 15%;
+}
+
+.img-fluid{
+margin: 5px auto 0px;
+display: block;
+width: 80%;
+}
+
+
+
+header{
+
+height: 187px;
+
+}
+
+
+.last-one h1{
+	font-size: 40px;
+padding: 45px 50px 30px;
+text-align: center;
+
+}
+.last-one h5{
+	font-size: 13px;
+	text-align: center;
+
+}
+
+.foot h6{
+	font-size: 12px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+}
